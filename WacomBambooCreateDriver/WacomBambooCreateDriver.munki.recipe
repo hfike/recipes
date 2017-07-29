@@ -128,7 +128,7 @@ exit 0
 			</dict>
 			<dict>
 				<key>Processor</key>
-				<string>com.github.jps3.WacomIntuosProDriver/AddExecutePermissionsToDirectories</string>
+				<string>com.github.jps3.WacomIntuosProDriver/AddExecutePermissionsToDirectories.py</string>
 				<key>Arguments</key>
 				<dict>
 					<key>root_path</key>
