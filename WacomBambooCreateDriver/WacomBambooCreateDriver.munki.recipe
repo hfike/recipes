@@ -64,7 +64,7 @@ exit 0
 		<key>MinimumVersion</key>
 		<string>0.4.1</string>
 		<key>ParentRecipe</key>
-		<string>com.github.novaksam.download.WacomBamboo</string>
+		<string>com.github.novaksam.pkg.WacomBamboo</string>
 		<key>Process</key>
 		<!--
 			The Wacom software typically comes as a *.pkg enclosed in a
