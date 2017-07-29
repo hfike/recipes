@@ -126,7 +126,7 @@ exit 0
 					<string>%found_filename%/Payload</string>
 				</dict>
 			</dict>
-			<dict>
+<!--			<dict>
 				<key>Processor</key>
 				<string>com.github.autopkg.jps3-recipes.WacomIntuosProDriver/AddExecutePermissionsToDirectories</string>
 				<key>Arguments</key>
@@ -134,7 +134,7 @@ exit 0
 					<key>root_path</key>
 					<string>%RECIPE_CACHE_DIR%/faux_root</string>
 				</dict>
-			</dict>
+			</dict> -->
 			<dict>
 				<key>Processor</key>
 				<string>MunkiInstallsItemsCreator</string>
