@@ -128,15 +128,6 @@ exit 0
 			</dict>
 			<dict>
 				<key>Processor</key>
-				<string>AddExecutePermissionsToDirectories</string>
-				<key>Arguments</key>
-				<dict>
-					<key>root_path</key>
-					<string>%RECIPE_CACHE_DIR%/faux_root</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>Processor</key>
 				<string>MunkiInstallsItemsCreator</string>
 				<key>Arguments</key>
 				<dict>
