@@ -136,9 +136,8 @@ exit 0
 					<key>installs_item_paths</key>
 					<array>
 						<string>/Applications/Pen Tablet.localized/Pen Tablet Utility.app</string>
-						<string>/Applications/Pen Tablet.localized/Pen Desktop Center.app</string>
-						<string>/Library/Application Support/Tablet/WacomTabletDriver.app</string>
-						<string>/Library/PreferencePanes/WacomTablet.prefpane</string>
+						<string>/Library/Application Support/Tablet/PenTabletDriver.app</string>
+						<string>/Library/PreferencePanes/PenTablet.prefpane</string>
 					</array>
 					<key>version_comparison_key</key>
 					<string>CFBundleVersion</string>
