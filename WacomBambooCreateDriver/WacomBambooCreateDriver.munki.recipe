@@ -135,8 +135,8 @@ exit 0
 					<string>%RECIPE_CACHE_DIR%/faux_root</string>
 					<key>installs_item_paths</key>
 					<array>
-						<string>/Applications/Wacom Tablet.localized/Wacom Tablet Utility.app</string>
-						<string>/Applications/Wacom Tablet.localized/Wacom Desktop Center.app</string>
+						<string>/Applications/Pen Tablet.localized/Pen Tablet Utility.app</string>
+						<string>/Applications/Pen Tablet.localized/Pen Desktop Center.app</string>
 						<string>/Library/Application Support/Tablet/WacomTabletDriver.app</string>
 						<string>/Library/PreferencePanes/WacomTablet.prefpane</string>
 					</array>
