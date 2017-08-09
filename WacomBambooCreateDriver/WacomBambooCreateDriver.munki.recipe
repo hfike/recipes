@@ -15,7 +15,7 @@
 			<key>WACOM_PKG_NAME</key>
 			<string>Install Wacom Tablet.pkg</string>
 			<key>MUNKI_DESCRIPTION</key>
-			<string>Drivers and support software for the Wacom Intuos Pro tablets.</string>
+			<string>Drivers and support software for the Wacom Bamboo Create tablets.</string>
 			<key>MUNKI_DISPLAYNAME</key>
 			<string>Wacom Bamboo Create Tablet Driver</string>
 			<key>MUNKI_NAME</key>
