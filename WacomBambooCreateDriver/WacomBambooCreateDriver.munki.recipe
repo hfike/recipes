@@ -38,7 +38,7 @@
 				<string>#!/bin/bash
 PATH=/bin:/sbin:/usr/bin:/usr/sbin
 
-uninstall_script="/Applications/Wacom Tablet.localized/Wacom Tablet Utility.app/Contents/Resources/uninstall.pl"
+uninstall_script="/Applications/Pen Tablet.localized/Pen Tablet Utility.app/Contents/Resources/uninstall.pl"
 
 # Because Wacom's uninstall.pl script will fail when run from Munki
 # (it assumes $HOME and $USER are not empty), we are going to trick
