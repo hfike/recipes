@@ -25,7 +25,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>AxCrypt is a simple file encryption software for Windows. It integrates seamlessly with your workflow to encrypt, decrypt, store, send and work with files.</string>
+			<string>AxCrypt is a simple file encryption software for macOS. It integrates seamlessly with your workflow to encrypt, decrypt, store, send and work with files.</string>
 			<key>developer</key>
 			<string>AxCrypt AB</string>
 			<key>display_name</key>
