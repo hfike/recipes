@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.3.1 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of LTspice and imports it into Munki.</string>
+	<key>Identifier</key>
+	<string>com.gitlab.hfike.munki.LTspice</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>Apps/%NAME%</string>
+		<key>NAME</key>
+		<string>LTspice</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>LTspice.app</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string>A high performance SPICE simulator, schematic capture, and waveform viewer.</string>
+			<key>developer</key>
+			<string>German Ergueta</string>
+			<key>display_name</key>
+			<string>LTspice</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>ParentRecipe</key>
+	<string>com.gitlab.hfike.download.LTspice</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>com.gitlab.hfike.download.LTspice</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/RecipeOverrides/LTspice.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>91f3ce65b415db66b54ac13d6d3d7ddad30707fc31c1a46a53d27754d3cc046b</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
+				<key>repo_subdirectory</key>
+				<string>%MUNKI_REPO_SUBDIR%</string>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
