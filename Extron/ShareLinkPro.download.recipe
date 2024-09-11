@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.zip</string>
 				<key>url</key>
-				<string>https://www.extron.com/download/dltrack.aspx?file=ShareLinkPro_2x2x0.zip&amp;id=146744</string>
+				<string>https://media.extron.com/protected/download/files/software/ShareLinkPro_2x2x0.zip?aIxSk7s3ZYzuyjLBfmH8BO7-ebmSRjPbwcxc3vqZeAlWD2yIAyczNmXqHjkhehrAoW_n7cYQnRh9JhZvYSN7zKMLSHhMyIip_aduoBHf0KwZjrDOmJu947VfXldkBbESWCIbua3CEz4hzMCg05edKdj56DSALJM</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
