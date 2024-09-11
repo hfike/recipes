@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of ShareLink Pro.</string>
 	<key>Identifier</key>
-	<string>com.github.hfike.download.ExtronShareLinkPro</string>
+	<string>com.github.hfike.download.ShareLinkPro</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
