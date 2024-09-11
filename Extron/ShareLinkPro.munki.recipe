@@ -7,13 +7,13 @@
 	<key>Description</key>
 	<string>Downloads the latest version of ShareLink Pro and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>com.github.macbr00ke.munki.ShareLinkPro</string>
+	<string>com.github.hfike.munki.ShareLinkPro</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
-		<string>apps/%NAME%</string>
+		<string>Apps/Extron</string>
 		<key>NAME</key>
-		<string>ShareLink Pro</string>
+		<string>ExtronShareLinkPro</string>
 		<key>pkginfo</key>
 		<dict>
 			<key>catalogs</key>
@@ -21,11 +21,11 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>Integrates Final Cut Pro X projects with Avid Pro Tools.</string>
+			<string>Extron ShareLink Pro is a user-friendly app for wirelessly sharing content from computer to a display.</string>
 			<key>developer</key>
-			<string>RGB Systems, Inc.</string>
+			<string>Extron</string>
 			<key>display_name</key>
-			<string>ShareLink Pro</string>
+			<string>Extron ShareLink Pro</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
@@ -35,7 +35,7 @@
 	<key>MinimumVersion</key>
 	<string>2.3</string>
 	<key>ParentRecipe</key>
-	<string>com.github.macbr00ke.download.ShareLinkPro</string>
+	<string>com.github.hfike.download.ShareLinkPro</string>
 	<key>Process</key>
 	<array>
 		<dict>
